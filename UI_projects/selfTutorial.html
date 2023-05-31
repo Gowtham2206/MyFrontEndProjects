@@ -1,0 +1,145 @@
+<!-- HyperText Markup Language -->
+<!-- not programing only markup language -->
+<!-- no logics no codes only skelton -->
+
+<html lang="en">
+    <head>
+        <title> Gowtham</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            #one{ 
+                color: chartreuse;
+            }
+            .add{
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="color : blue">Self Intro</h1>    
+        <!-- h is heading tag, it has from 1 to 6 -->
+        <h3>Name : <a href="mailto:gowthamtj22@gmail.com" target="_blank">Gowtham</a> </h3>
+        <!-- Inserting link - keyword is 'a' - blank key word opens the link in new tab - href(hyperlink ref) gives the link, a means anchor tag -->
+        <h4 id = "one"> Native : Coimbatore</h4>
+        <h4 class="add">Address : B-214, Nithya Gardens, Coimbatore</h4>
+        <hr>
+        <pre class="add">I studied in 
+            kct</pre>
+        <!-- pre is used to display paras as it is - predefined-->
+        <h4>Current job : Software tester at Vrize</h4>  
+        <hr>
+        <!-- gonna see list -->
+        <ul style="list-style-type: square;">
+            <li>tamil</li>
+            <li>englis</li>
+        </ul>
+        <!-- ul means unordered list, li means list item, ul prints with symbols like dots -->
+        <ol type="1" start="6">
+            <li>tamil</li>
+            <li>englis</li>
+        </ol>
+        <!-- ol means ordered list, ol prints with numbers, type means ist type -->
+        <dl>
+            <dt>HTML</dt>
+            <dd><h4>HyperText programing language</h4></dd>
+        </dl>
+        <!-- DL means defenition list, dt means tag, dd means data -->
+        <table border="3px">
+            <head>
+                <tr>
+                    <th>name</th>
+                    <th>school</th>
+                    <th>DOB</th>
+                </tr>
+            </head>
+            <body>
+                <tr>
+                    <td>gowtham</td>
+                    <td>cms</td>
+                    <td>22/6</td>
+                </tr>
+                <tr>
+                    <td>guru</td>
+                    <td>cms</td>
+                    <td>15/6</td>
+                </tr>
+            </body>
+        </table>
+        <!-- table keyword created table, tr means new row, th means headings, td means data -->
+       <div id="form">
+        <form style="text-align: center;">
+            <div>
+                <h3>table</h3>
+                <label>Username</label>
+                <input type="text" name="uname" placeholder="Username" minlength="5" value="gk" required>
+                <!-- value is present by default -->
+            </div><br>
+            <div>
+                <label>Password</label>
+                <input type="password" name="pname" required>
+            </div><br>   
+            <div>
+                <label>Phone no</label>
+                <input type="number" name="pnum" max="3000" step="6">
+            </div>  <br>  
+            <div>
+                <label>DOB</label>
+                <input type="date" name="pnum">
+            </div> <br>
+            <div>
+                <label>mail id</label>
+                <input type="email" name="pnum">
+            </div><br>
+            <div>
+                <label>Feedback</label>
+                <textarea></textarea><br><br>
+                <div>
+                    <label>Gender</label>
+                    <select>
+                        <option>male</option>
+                        <option>female</option>
+                        <option>others</option>
+                    </select>
+                </div>      
+            </div>  <br>
+            <button type="reset">reset</button>
+            <input type="submit">  
+            <br>   
+        </form>
+       </div>
+        <!-- div indiates a division, select indicates multiple choice, options are options, testarea is infinity test field, labels is name of the input field, placeholder is to tell user about the field -->
+        <video src="/media/orders.mp4" height="200px" controls autoplay></video>
+        <img src="/media/img.jpg" width="500px" height="200px" alt="sample image" title="walk">
+        <h1>hi</h1>
+        <iframe src="form.html" frameborder="10"></iframe>
+        <address>Nithya Gardens</address>
+        <pre id="overflow">Lorem ipsum dolor sit amet 
+            consectetur adipisicing elit. Architecto 
+            consequuntur dolor perspiciatis? Similique 
+            maiores repellat sit, aut dolorum dolores iste 
+            ipsum laudantium pariatur id perspiciatis. 
+           
+            Laborum id quos quasi quod recusandae 
+            
+            architecto perferendis velit optio dignissimos 
+            suscipit! Hic quaerat nam ullam, quas porro 
+            dolores deleniti incidunt debitis aut sed 
+            tempora repellat odit eaque nemo error dolorum 
+            voluptas, quis ipsum consequuntur perspiciatis 
+            fugiat tempore amet id enim! Tenetur eveniet 
+            cupiditate harum. Veritatis ipsum placeat sint 
+            dignissimos praesentium provident ab, hic eum 
+            error aut fugit labore debitis facilis natus 
+            doloremque, sapiente odit quam, nesciunt 
+            numquam tenetur deserunt unde nam eaque autem. 
+            Corporis.
+        </pre>
+        <div id="float">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, maxime. Deserunt molestias veniam enim non esse nisi quidem iure quos.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, maxime voluptatum? Nesciunt velit asperiores repellendus pariatur natus sequi animi dolor!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio necessitatibus vero dolores beatae quas assumenda repudiandae sunt ab, modi fugit!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatem possimus sapiente animi ea eos pariatur error ipsam molestias ut?</p>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31103.08643109428!2d80.20226226866286!3d12.979155133910409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d9ff2065a3b%3A0x66435015604038cc!2sVelachery%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1679378554217!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </body>
+</html>

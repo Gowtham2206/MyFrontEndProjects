@@ -1,0 +1,45 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    color: rgb(255, 136, 0);
+}
+body{
+    /* width: 10px; */
+    /* height: 1000px; */
+    background-image: url("media/download.jfif"), linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.4));
+    /* background-color: brown; */
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+#form{
+    /* width: 100px; */
+    margin: 200px 100px 100px 200px;
+    border-style: solid;
+    border-color: black;
+    /* padding: 100px 100px 100px 350px;  */
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+#overflow{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    overflow:scroll;
+    text-align: justify;
+}
+#float p{
+    width: 250px;
+    margin: 10px;
+    /* height: 300px; */
+    float: left;
+    border: 2px solid black;
+    overflow: scroll;
+    text-align: justify;
+}
